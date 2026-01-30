@@ -344,76 +344,8 @@ Com a condição de incluir o aviso de licença.
 **Ronaldo**
 
 - 🐙 GitHub: [@Ronaldofcjr](https://github.com/Ronaldofcjr)
-- 💼 Portfólio: [Seu site aqui]
-- 📧 Email: [Seu email aqui]
 
----
 
-## 🙏 Agradecimentos
-
-- Inspiração em calculadoras de pegada de carbono globais
-- Comunidade open source por ferramentas e conhecimento
-- GitHub Pages por hosting gratuito
-
----
-
-## 📚 Recursos Úteis
-
-- [MDN Web Docs - HTML, CSS, JavaScript](https://developer.mozilla.org/)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [CSS Variables Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
-- [ES6 JavaScript Features](https://es6-features.org/)
-- [Fatores de Emissão de CO₂](https://www.epa.gov/sites/production/files/2021-04/emission-factors_2021.pdf)
-
----
-
-## 📋 Roadmap Futuro
-
-### v1.1
-- [ ] Adicionar mais cidades ao banco de dados
-- [ ] Suporte a distâncias personalizadas com autocomplete
-
-### v1.2
-- [ ] Integração com API de mapas para cálculo automático
-- [ ] Histórico de cálculos (localStorage)
-
-### v2.0
-- [ ] Versão mobile app (PWA)
-- [ ] Dashboard com comparações
-- [ ] Suporte a múltiplos idiomas
-
----
-
-## 🌟 Mostre Seu Apoio
-
-Se este projeto foi útil para você:
-
-- ⭐ Deixe uma **estrela** no GitHub
-- 🔗 Compartilhe com seus amigos
-- 💬 Dê feedback nos **Issues**
-- 🤝 Contribua com código
-
----
-
-## 📞 Suporte
-
-Encontrou um bug ou tem uma sugestão?
-
-1. Abra uma [Issue](https://github.com/Ronaldofcjr/Calculadora-co2/issues)
-2. Descreva o problema detalhadamente
-3. Inclua screenshots ou exemplos se possível
-
----
-
-## 📝 Changelog
-
-### v1.0 - 30/01/2026
-- ✅ Calculadora funcional com 3 meios de transporte
-- ✅ Interface responsiva e acessível
-- ✅ Deploy automático no GitHub Pages
-- ✅ Documentação completa
-
----
 
 <div align="center">
 
