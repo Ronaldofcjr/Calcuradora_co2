@@ -1,0 +1,49 @@
+name: Deploy para GitHub Pages
+
+# Disparadores do workflow
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Permissões necessárias
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Evita múltiplos deploys simultâneos
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy da Calculadora de CO₂
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # 1️⃣ Fazer checkout do repositório
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2️⃣ Configurar o GitHub Pages
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v3
+
+      # 3️⃣ Preparar os arquivos estáticos para deploy
+      - name: Upload de artefatos para GitHub Pages
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: '.'
+
+      # 4️⃣ Publicar a aplicação no GitHub Pages
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
